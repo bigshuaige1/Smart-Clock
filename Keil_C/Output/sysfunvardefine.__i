@@ -1,0 +1,6 @@
+--c99 -c --cpu Cortex-M0+ -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir "..\\List\\" -I ..\FWLib\SC32F1XXX_Lib\inc -I ..\User\HeadFiles -I ..\User -I ..\Drivers -I ..\Apps -I ..\CMSIS
+-I.\RTE\__SinOneCup_OLED_
+-ID:\Keil\SC32F1xxx_DFP\1.0.6\Device\SC32F10xx\FWLib\SC32_Lib\inc
+-ID:\ARM\CMSIS\Include
+-D__UVISION_VERSION="525" -DSC32F10xx -DSC32f10xx
+-o ..\output\sysfunvardefine.o --list_dir "..\\List\\" --list --omf_browse ..\output\sysfunvardefine.crf --depend ..\output\sysfunvardefine.d "..\User\SysFunVarDefine.c"
